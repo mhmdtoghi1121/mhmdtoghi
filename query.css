@@ -1,0 +1,88 @@
+@media (max-width: 440px) {
+    header {
+        height: 90px;
+    }
+
+    .hn-header-top .hn-ht-left{
+        display: none;
+        
+    } 
+    .hn-header-top .hn-ht-right {
+        width: 100%;
+        gap: 50px;
+        padding: 0 15px;
+    }
+    .hn-ht-right .hn-search-box form {
+        width: 100%;
+        padding-right:10px ;
+    }
+
+    .hn-header-bottom {
+        position: absolute;
+        bottom: 0;
+    }
+    .hn-header-bottom .hn-menu-site .hn-menu .hn-item:nth-child(2),
+    .hn-header-bottom .hn-menu-site .hn-menu .hn-item:nth-child(3),
+    .hn-header-bottom .hn-menu-site .hn-menu .hn-item:nth-child(4),
+    .hn-header-bottom .hn-menu-site .hn-menu .hn-item:nth-child(5),
+    .hn-header-bottom .hn-menu-site .hn-menu .hn-item:nth-child(6),
+    .hn-header-bottom .hn-menu-site .hn-menu .hn-item:nth-child(7),
+    .hn-header-bottom .hn-menu-site .hn-menu .hn-item:nth-child(8){
+        display: none;
+    }
+    .hn-header-bottom .hn-location {
+        display: none;
+    }
+    .hn-header-bottom .hn-menu-site .hn-menu .hn-item:nth-child(1) a{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+    
+    .hn-menu .hn-item:first-child:hover .hn-mega-menu{
+        height: 590px;
+    }
+    .hn-menu .hn-item:first-child .hn-mega-menu {
+        top: -1077%;
+        right: -15px;
+    }
+    .hn-mega-menu .hn-mega {
+        width: 120px;
+        text-align: center;
+    }
+    .hn-mega .hn-mega-item{
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+    .hn-mega-item a p {
+        font-size: 13px;
+    }
+    .hn-mega-item .hn-information-menu  {
+        padding: 0;
+        right: 120px;
+        width: 260px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .hn-information-menu .hn-grid-info {
+        flex-wrap: wrap;
+    }
+    .hn-grid-info .hn-info {
+        width: 70px;
+    }
+    .hn-grid-info .hn-info h2 {
+        font-size: 13px;
+    }
+    .hn-info ul li {
+        margin: 0;
+    }
+    .hn-grid-info .hn-info ul li a {
+        font-size: 10px;
+    }
+}
